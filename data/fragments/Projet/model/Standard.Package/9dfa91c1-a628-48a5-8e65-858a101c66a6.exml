@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Chat System" version="4">
+  <OBJECT>
+    <ID name="Chat System" mc="Standard.Package" uid="9dfa91c1-a628-48a5-8e65-858a101c66a6"/>
+    <PID name="projet" mc="Standard.Package" uid="ba41a691-f74b-44b8-925f-13c10d99b4d7"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Chat System]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Start Chat" mc="Standard.UseCase" uid="b0545197-cb19-43c0-b401-6e2d14c7f754"/>
+        <COMPID name="Send Message" mc="Standard.UseCase" uid="0a927a94-5adb-473f-9c9d-654feba3b956"/>
+        <COMPID name="Get Historic" mc="Standard.UseCase" uid="5ac9538d-166d-4273-a3b7-c2289d9b8ff7"/>
+        <COMPID name="Send Image" mc="Standard.UseCase" uid="7d18e13e-0824-4fee-9e8a-6853300e6ca5"/>
+        <COMPID name="Send Drawing" mc="Standard.UseCase" uid="8c1aa9cd-62be-4baf-a743-b4a4a28febee"/>
+        <COMPID name="Send File" mc="Standard.UseCase" uid="5a1f526b-1d32-4c1c-b7ee-561475984403"/>
+        <COMPID name="Reduce Chat" mc="Standard.UseCase" uid="4a95e8f3-b373-4dd9-bb8b-cbabff000dcb"/>
+        <COMPID name="Close Chat" mc="Standard.UseCase" uid="2f853309-588c-48f1-b74f-52d6a44773df"/>
+        <COMPID name="Notify Other Users" mc="Standard.UseCase" uid="f54ef6cd-a02e-43b4-aa35-5dd5cea4066e"/>
+        <COMPID name="Update Database" mc="Standard.UseCase" uid="8e1e6520-89ca-4b90-b380-35dd9d8e3090"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
